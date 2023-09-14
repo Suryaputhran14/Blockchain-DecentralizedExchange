@@ -1,6 +1,6 @@
 # Canada-DigitalAssets-Exchange - Decentralized Exchange
 
-Welcome to the Canada-DigitalAssets-Exchange repository. This project represents a decentralized exchange designed to operate on the ERC-20 token standard. The core objective of this endeavor is to establish a transparent and secure platform for the seamless trading of digital assets leveraging blockchain technology. As staunch advocates of open-source principles, we have chosen to make our codebase accessible to the public, enabling thorough review and active contribution.
+Welcome to the `Canada-DigitalAssets-Exchange` repository. This project represents a decentralized exchange designed to operate on the ERC-20 token standard. The core objective of this endeavor is to establish a transparent and secure platform for the seamless trading of digital assets leveraging blockchain technology. As staunch advocates of open-source principles, we have chosen to make our codebase accessible to the public, enabling thorough review and active contribution.
 
 ## Table of Contents
 - [Verification and Security](#verification-and-security)
@@ -13,7 +13,10 @@ Welcome to the Canada-DigitalAssets-Exchange repository. This project represents
 - [Scripts](#scripts)
 - [Configuration](#configuration)
 - [Contribution](#contribution)
+- [License](#license)
 - [Project Updates](#project-updates)
+- [Project Link](#project-link)
+
 
 ## Verification and Security
 
@@ -29,7 +32,7 @@ To initiate the decentralized exchange interface, kindly adhere to the subsequen
 
 1. Clone this repository onto your local workstation.
 
-2. Confirm the presence of Node.js and npm within your environment.
+2. Confirm the presence of `node.js` and `npm` within your environment.
 
 3. Proceed to install the requisite dependencies by executing the following command:
 
@@ -63,6 +66,7 @@ For a more profound comprehension of Create React App and React, we direct your 
 
 - [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 - [React Documentation](https://reactjs.org/)
+- [Fleek's Documentation](https://docs.fleek.co/)
 
 ## Testing
 
@@ -100,7 +104,7 @@ The `config.json` file in the repository contains the following components:
 ### Local Blockchain (31337):
 
 - **Exchange:** Ethereum address for the exchange contract: `0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9`
-- **CADex:** Ethereum address for CADex contract: `0x5FbDB2315678afecb367f032d93F642f64180aa3`
+- **CADEX:** Ethereum address for CADEX contract: `0x5FbDB2315678afecb367f032d93F642f64180aa3`
 - **DAI:** Ethereum address for DAI contract: `0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512`
 - **USDC:** Ethereum address for USDC contract: `0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0`
 - **Explorer URL:** Local explorer URL: `#`
@@ -124,7 +128,7 @@ npx hardhat run --network localhost scripts/1_deploy.js
 ### Goerli Testnet (5):
 
 - **Exchange:** Ethereum address for the exchange contract: `0x93b3674A9B52c9B42ED9089F51d4f1473D5eE2B9`
-- **CADex:** Ethereum address for CADex contract: `0xB06e67dd2c20C411eAB50b424A18e912A9129e8F`
+- **CADEX:** Ethereum address for CADEX contract: `0xB06e67dd2c20C411eAB50b424A18e912A9129e8F`
 - **DAI:** Ethereum address for DAI contract: `0x4Efe71547EE4Fed48b27C387ca40c200C05b2A44`
 - **USDC:** Ethereum address for USDC contract: `0xc647b99d23A76855100514515aAE2b81e09ac3a7`
 - **Explorer URL:** Local explorer URL: `https://goerli.etherscan.io/`
@@ -133,7 +137,7 @@ npx hardhat run --network localhost scripts/1_deploy.js
 
 To embark on the deployment of smart contracts onto the testnet blockchain, adhere to the ensuing protocol:
 
-2. With the node operational, deploy the smart contracts using the script provided:
+1. With the node operational, deploy the smart contracts using the script provided:
 
 ```bash
 npx hardhat run --network goerli scripts/1_deploy.js
@@ -145,8 +149,10 @@ Community contributions are enthusiastically welcomed. Should you identify bugs,
 
 We extend our gratitude for exploring our project. Your interest is sincerely appreciated.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Project Updates
 
 As a dynamic project operating in the ever-evolving ecosystem of blockchain technology and the cryptospace, we are committed to continuous learning and improvement. We will regularly update this project to modernize and moderate it in line with the latest developments and best practices. Stay tuned for updates and improvements!
-
-For more information, please visit our project website: [Canada Digital Assets Exchange](https://muddy-bonus-4882.on.fleek.co)
