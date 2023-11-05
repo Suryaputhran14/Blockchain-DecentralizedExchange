@@ -1,6 +1,6 @@
-# Canada-DigitalAssets-Exchange - Decentralized Exchange
+#Trustless Exchange- Decentralized Exchange
 
-Welcome to the `Canada-DigitalAssets-Exchange` repository. This project represents a decentralized exchange designed to operate on the ERC-20 token standard. The core objective of this endeavor is to establish a transparent and secure platform for the seamless trading of digital assets leveraging blockchain technology. As staunch advocates of open-source principles, we have chosen to make our codebase accessible to the public, enabling thorough review and active contribution.
+Welcome to the `Trustless Exchange` repository. This project represents a decentralized exchange designed to operate on the ERC-20 token standard. The core objective of this endeavor is to establish a transparent and secure platform for the seamless trading of digital assets leveraging blockchain technology. As staunch advocates of open-source principles, we have chosen to make our codebase accessible to the public, enabling thorough review and active contribution.
 
 ## Table of Contents
 - [Verification and Security](#verification-and-security)

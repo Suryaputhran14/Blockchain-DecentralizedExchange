@@ -54,8 +54,8 @@ const Navbar = () => {
     <div className='exchange__header grid'>
       {/* Brand section */}
       <div className='exchange__header--brand flex'>
-        <img src={logo} className="logo" alt="Cadex Logo" />
-        <h1>Canada Digital Assets Exchange</h1>
+        <img src={eth} className="logo" alt="Cadex Logo" />
+        <h1>Trustless Exchange</h1>
       </div>
 
       {/* Network selection section */}

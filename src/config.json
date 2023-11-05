@@ -34,13 +34,13 @@
       "address": "0x66D1Cd53CcF46C1F2b9eF9d17E08E922a11A29aF"
     },
     "cadex": {
-      "address": "0xAE120Ea7edB153620012bdDf5fc2A195Ea896066"
+      "address": "0x72b8D3126495C486ee82931126c95229296DbC15"
     },
     "dai": {
-      "address": "0xD5572F339DF412649A967097F5A4eDEefA8255E3"
+      "address": "0x72204DF2136E2E8b0B3d7727355e4F6B10Fb85d7"
     },
     "usdc": {
-      "address": "0x587BB6001B74294e4dd7fF96E0627A9536B182eF" 
+      "address": "0xad3B83a32f326f5cF4193e18de36882011A358e5" 
     },
     "explorerURL": "https://sepolia.etherscan.io/"
     },
