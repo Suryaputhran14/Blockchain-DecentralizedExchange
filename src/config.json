@@ -59,6 +59,21 @@
     },
     "explorerURL": "https://goerli.arbiscan.io/"
     },
+    "119193": {
+      "exchange": {
+        "address": "0x73EFaC01EB158c9a38611430E4e63b8BbBF96a08"
+      },
+      "cadex": {
+        "address": "0x8100451c591a06cf3cc21849DD738985E069916A"
+      },
+      "dai": {
+        "address": "0xF71481E5deEc90D038Ce2084aF5f5d7E269D96cB"
+      },
+      "usdc": {
+        "address": "0xa397a3a6873d8A9D205b2025C4D0a8f4F1ac123c" 
+      },
+      "explorerURL": "https://explorer.dev.chain.metadap.io"
+      },
   "80001": {
     "exchange": {
       "address": "0xB06e67dd2c20C411eAB50b424A18e912A9129e8F"

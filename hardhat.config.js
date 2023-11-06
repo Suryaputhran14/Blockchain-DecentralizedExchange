@@ -19,6 +19,10 @@ module.exports = {
       url: `https://arbitrum-goerli.infura.io/v3/${process.env.INFURA_API_KEY}`,
       accounts: privateKeys.split(","),
     },
+    EvorichChainTestnet: {
+      url: `https://explorer.dev.chain.metadap.io/`,
+      accounts: privateKeys.split(","),
+    },
      mumbai: {
       url: `https://polygon-mumbai.infura.io/v3/${process.env.INFURA_API_KEY}`,
       accounts: privateKeys.split(",") 

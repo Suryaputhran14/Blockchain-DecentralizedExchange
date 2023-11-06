@@ -64,11 +64,12 @@ const Navbar = () => {
         {chainId && (
           <select name="networks" id="networks" value={config[chainId] ? `0x${chainId.toString(16)}` : `0`} onChange={networkHandler}>
             <option value="0" disabled>Select network</option>
-            <option value="0x7A69">Localhost</option>
+            <option value="0x7A69"disabled>Localhost</option>
             <option value="0x5">Goerli (ETH)</option>
             <option value="0xaa36a7">Sepolia</option>
-            <option value="0x66eed">Goerli (ARB)</option>
-            <option value="0x13881">Mumbai</option>
+            <option value="0x66eed"disabled>Goerli (ARB)</option>
+            <option value="0x13881"disabled>Mumbai</option>
+            <option value="0xaa36a7"disabled>Evorich Chain Tesntnet</option>
           </select>
         )}
       </div>
